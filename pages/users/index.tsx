@@ -1,4 +1,4 @@
-const Users: React.FC = () => {
+function Users() {
   return <div>Users Page</div>
 }
 

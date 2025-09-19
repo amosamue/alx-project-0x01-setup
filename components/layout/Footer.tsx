@@ -1,4 +1,4 @@
-const Footer: React.FC = () => {
+function Footer() {
   return <footer>Footer</footer>
 }
 

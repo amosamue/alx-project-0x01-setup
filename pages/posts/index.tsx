@@ -1,4 +1,4 @@
-const Posts: React.FC = () => {
+function Posts() {
   return <div>Posts Page</div>
 }
 

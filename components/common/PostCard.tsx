@@ -1,4 +1,4 @@
-const PostCard: React.FC = () => {
+function PostCard() {
   return <div>PostCard</div>
 }
 

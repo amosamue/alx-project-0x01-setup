@@ -1,4 +1,4 @@
-const Button: React.FC = () => {
+function Button() {
   return <button>Button</button>
 }
 
