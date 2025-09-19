@@ -1,5 +1,5 @@
-const Button: React.FC<{ label: string }> = ({ label }) => {
-  return <button className="px-4 py-2 bg-blue-500 text-white rounded">{label}</button>
+const Button: React.FC = () => {
+  return <button>Button</button>
 }
 
-export default Button;
+export default Button

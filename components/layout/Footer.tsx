@@ -1,9 +1,5 @@
 const Footer: React.FC = () => {
-  return (
-    <footer className="p-4 bg-gray-800 text-white text-center">
-      <p>Footer</p>
-    </footer>
-  )
+  return <footer>Footer</footer>
 }
 
-export default Footer;
+export default Footer
