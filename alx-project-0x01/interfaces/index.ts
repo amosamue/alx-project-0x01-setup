@@ -29,5 +29,5 @@ export interface UserData extends UserProps {}
 export interface UserModalProps {
   isOpen: boolean
   onClose: () => void
-  onSubmit: (post: UserProps) => void
+  onSubmit: (post: UserProps) => void;
 }
