@@ -1,4 +1,5 @@
 // interfaces/index.ts
+
 export interface PostProps {
   userId: number;
   id: number;
@@ -28,4 +29,17 @@ export interface UserProps {
     catchPhrase: string;
     bs: string;
   };
+}
+
+// ✅ New for Task 4
+export interface PostData {
+  userId: number;
+  id?: number;
+  title: string;
+  body: string;
+}
+
+export interface PostModalProps {
+  onClose: () => void;
+  onSubmit: (post: PostData) => void;
 }
