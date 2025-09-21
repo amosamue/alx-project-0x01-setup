@@ -1,12 +1,16 @@
 // users/index.tsx
-import React from "react";
+import Header from "@/components/layout/Header";
 
-const UsersPage: React.FC = () => {
+const Users: React.FC = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-4xl font-bold">Users Page</h1>
+    <div>
+      <Header />
+      <main className="p-6">
+        <h1 className="text-3xl font-bold">Users Page</h1>
+        <p className="mt-2">Here are some users...</p>
+      </main>
     </div>
-  );
-};
+  )
+}
 
-export default UsersPage;
+export default Users;
