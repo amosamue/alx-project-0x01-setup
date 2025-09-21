@@ -1,10 +1,20 @@
-// interfaces/index.ts
-
 export interface PostProps {
   userId: number;
   id: number;
   title: string;
   body: string;
+}
+
+export interface PostData {
+  userId: number;
+  id?: number;
+  title: string;
+  body: string;
+}
+
+export interface PostModalProps {
+  onClose: () => void;
+  onSubmit: (post: PostData) => void;
 }
 
 export interface UserProps {
@@ -31,15 +41,16 @@ export interface UserProps {
   };
 }
 
-// ✅ New for Task 4
-export interface PostData {
-  userId: number;
+export interface UserData {
   id?: number;
-  title: string;
-  body: string;
+  name: string;
+  username: string;
+  email: string;
+  phone: string;
+  website: string;
 }
 
-export interface PostModalProps {
+export interface UserModalProps {
   onClose: () => void;
-  onSubmit: (post: PostData) => void;
+  onSubmit: (user: UserData) => void;
 }
